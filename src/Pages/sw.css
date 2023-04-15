@@ -1,0 +1,40 @@
+
+  
+  .stopwatch-display {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stopwatch-controls {
+    display: flex;
+  }
+  
+  .start-button,
+  .pause-button,
+  .reset-button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pause-button {
+    background-color: #f44336;
+  }
+  
+  .start-button:hover,
+  .pause-button:hover,
+  .reset-button:hover {
+    opacity: 0.8;
+  }
+  
+  .start-button:active,
+  .pause-button:active,
+  .reset-button:active {
+    transform: translateY(1px);
+  }
+  
